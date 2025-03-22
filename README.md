@@ -1,7 +1,7 @@
 # Meu portfolio
 
 <p align="center">
-  <img alt="Capa Habits" src=".github/preview.png" width="100%">
+  <img alt="Capa portfólio" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
