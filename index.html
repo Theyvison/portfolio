@@ -17,7 +17,7 @@
     <main>
       <section class="intro">
         <div class="container">
-          <div class="image-wrapper">
+          <div class="image-wrapper" id="profile">
             <img
               src="https://github.com/theyvison.png"
               alt="Foto de perfil de Theyvison Santos"
@@ -26,11 +26,11 @@
             <img src="./assets/code.svg" class="code" />
           </div>
           <div class="texts">
-            <h2 class="subtitle">
+            <h2 class="subtitle" id="intro-subtitle">
               Hello World! Meu nome é <span>Theyvison Santos</span> e sou
             </h2>
-            <h1 class="title-lg">Desenvolvedor Web</h1>
-            <p class="text-md">
+            <h1 class="title-lg" id="intro-title">Desenvolvedor Web</h1>
+            <p class="text-md" id="intro-text">
               Atualmente bacharelando em Sistemas de Informação, tenho
               conhecimento em desenvolvimento web. Iniciei minha jornada na
               programação estudando Python e, pouco tempo depois, conheci o
@@ -44,43 +44,41 @@
             </p>
             <div class="tags">
               <div class="tag">
-                <img src="./assets/html.svg" alt="html" />
+                <i class="fa-brands fa-html5" style="color: #e3646e"></i>
                 <span class="text-md" style="text-transform: uppercase"
                   >html</span
                 >
               </div>
 
               <div class="tag">
-                <img
-                  src="./assets/css.svg"
-                  alt="css"
-                  style="text-transform: uppercase"
-                />
-                <span class="text-md">css</span>
+                <i class="fa-brands fa-css3" style="color: #3996db"></i>
+                <span class="text-md" style="text-transform: uppercase"
+                  >css</span
+                >
               </div>
 
               <div class="tag">
-                <img src="./assets/js.svg" alt="javascript" />
+                <i class="fa-brands fa-js" style="color: #eabd5f"></i>
                 <span class="text-md">Javascript</span>
               </div>
 
               <div class="tag">
-                <img src="./assets/react.svg" alt="react" />
+                <i class="fa-brands fa-react" style="color: #3996db"></i>
                 <span class="text-md">React</span>
               </div>
 
               <div class="tag">
-                <img src="./assets/node.svg" alt="node" />
+                <i class="fa-brands fa-node-js" style="color: #82bc4f"></i>
                 <span class="text-md">Node.js</span>
               </div>
 
               <div class="tag">
-                <img src="./assets/github.svg" alt="github" />
+                <i class="fa-brands fa-github" style="color: #ffffff"></i>
                 <span class="text-md">Github</span>
               </div>
             </div>
             <button class="scroll-down" onclick="handleScrollDown()">
-              <img src="./assets/carretDoubleDown.svg" alt="" />
+              <i class="fa-solid fa-angles-down"></i>
             </button>
           </div>
         </div>
@@ -89,41 +87,47 @@
       <section class="projects">
         <div class="container">
           <div class="texts">
-            <span class="subtitle">Projetos</span>
-            <h2 class="title-md">Veja meus projetos em destaque</h2>
+            <span class="subtitle" id="projects-title">Projetos</span>
+            <h2 class="title-md" id="projects-subtitle">Veja meus projetos em destaque</h2>
           </div>
           <div class="projects-grid">
             <div class="project">
-              <img src="./assets/images/beautysalon.png" alt="" />
-              <h3 class="title-sm">beautisalon</h3>
-              <p class="text-sm">
+              <img
+                src="./assets/images/beautysalon.png"
+                alt="Imagem do projeto beautysalon"
+              />
+              <h3 class="title-md">beautisalon</h3>
+              <p class="text-md">
                 Uma landing page de um salão de beleza, desenvolvida com HTML,
                 CSS e Javascript durante a NLW 6 da rocketseat.
               </p>
               <div class="project-links">
                 <a
                   href="https://github.com/Theyvison/NLW-6-Origin"
-                  class="text-sm"
+                  class="text-md"
                   target="_blank"
                 >
-                  <img src="./assets/github.svg" />
+                  <i class="fa-brands fa-github"></i>
                   Repositório
                 </a>
                 <a
-                  href="theyvison.github.io/NLW-6-Origin/"
-                  class="text-sm"
+                  href="https://theyvison.github.io/NLW-6-Origin/"
+                  class="text-md"
                   target="_blank"
                 >
-                  <img src="./assets/link.svg" />
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   Site
                 </a>
               </div>
             </div>
 
             <div class="project">
-              <img src="./assets/images/portfolio.png" alt="" />
-              <h3 class="title-sm">Meu portfólio</h3>
-              <p class="text-sm">
+              <img
+                src="./assets/images/portfolio.png"
+                alt="Imagem do projeto portfolio"
+              />
+              <h3 class="title-md">Meu portfólio</h3>
+              <p class="text-md">
                 Esse site que está vendo é o meu portfólio, desenvolvido com
                 HTML, CSS e Javascript, feito para mostrar um pouco do meu
                 trabalho e conhecimento.
@@ -131,45 +135,48 @@
               <div class="project-links">
                 <a
                   href="https://github.com/Theyvison/portfolio"
-                  class="text-sm"
+                  class="text-md"
                   target="_blank"
                 >
-                  <img src="./assets/github.svg" />
+                  <i class="fa-brands fa-github"></i>
                   Repositório
                 </a>
                 <a
                   href="https://portfolio-theyvisons-projects.vercel.app/"
-                  class="text-sm"
+                  class="text-md"
                   target="_blank"
                 >
-                  <img src="./assets/link.svg" />
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   Site
                 </a>
               </div>
             </div>
 
             <div class="project">
-              <img src="./assets/images/ignite-timer.png" alt="" />
-              <h3 class="title-sm">Ignite Timer</h3>
-              <p class="text-sm">
+              <img
+                src="./assets/images/ignite-timer.png"
+                alt="Imagem do projeto ignite timer"
+              />
+              <h3 class="title-md">Ignite Timer</h3>
+              <p class="text-md">
                 Um timer criado em React com o intuito de ajudar a manter o foco
                 nas suas atividades
               </p>
               <div class="project-links">
                 <a
                   href="https://github.com/Theyvison/ignite-timer"
-                  class="text-sm"
+                  class="text-md"
                   target="_blank"
                 >
-                  <img src="./assets/github.svg" />
+                  <i class="fa-brands fa-github"></i>
                   Repositório
                 </a>
                 <a
                   href="https://ignite-timer-ten-omega.vercel.app/"
-                  class="text-sm"
+                  class="text-md"
                   target="_blank"
                 >
-                  <img src="./assets/link.svg" />
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   Site
                 </a>
               </div>
@@ -189,46 +196,46 @@
           </div>
           <ul>
             <li>
-              <a href="https://www.linkedin.com/in/theyvison/" target="_blank">
+              <a href="https://www.linkedin.com/in/theyvison/" target="_blank" class="text-md">
                 <div>
-                  <img src="./assets/linkedinLogo.svg" />
-                  <span class="text-md">LinkedIn</span>
+                  <i class="fa-brands fa-linkedin"></i>
+                  LinkedIn
                 </div>
-                <img src="./assets/link.svg" alt=""
-              /></a>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
             </li>
 
             <li>
-              <a href="https://www.instagram.com/th3yvison" target="_blank">
+              <a href="https://www.instagram.com/th3yvison" target="_blank" class="text-md">
                 <div>
-                  <img src="./assets/instagramLogo.svg" alt="" />
-                  <span class="text-md">Instagram</span>
+                  <i class="fa-brands fa-instagram"></i>
+                  Instagram
                 </div>
-                <img src="./assets/link.svg" alt=""
-              /></a>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
             </li>
 
             <li>
-              <a href="https://www.github.com/theyvison" target="_blank">
+              <a href="https://www.github.com/theyvison" target="_blank" class="text-md">
                 <div>
-                  <img src="./assets/githubLogo.svg" alt="" />
-                  <span class="text-md">Github</span>
+                  <i class="fa-brands fa-github"></i>
+                  Github
                 </div>
-                <img src="./assets/link.svg" alt=""
-              /></a>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
             </li>
 
             <li>
               <a
                 href="https://mailto:theyvisonsantos@hotmail.com"
                 target="_blank"
-              >
+                class="text-md">
                 <div>
-                  <img src="./assets/envelopeSimple.svg" alt="" />
-                  <span class="text-md">Email</span>
+                  <i class="fa-regular fa-envelope"></i>
+                  Email
                 </div>
-                <img src="./assets/link.svg" alt=""
-              /></a>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
             </li>
           </ul>
         </div>
@@ -239,11 +246,16 @@
         <a
           href="https://www.figma.com/community/file/1387080701963671866/portfolio-dev"
           target="_blank"
-          >Design original <img src="/assets/link.svg"
-        /></a>
+          >Design original <i class="fa-solid fa-arrow-up-right-from-square"></i
+        ></a>
         | Site desenvolvido por <span>Theyvison Santos</span>
       </p>
     </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script
+      src="https://kit.fontawesome.com/e11b42d844.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="main.js"></script>
   </body>
 </html>

@@ -21,6 +21,15 @@
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--gray-300);
+  border-radius: 6px;
+}
+
 .title-lg {
   font-family: "Asap", sans-serif;
   font-size: 3.5rem;
@@ -79,6 +88,7 @@
 
 body {
   background-color: var(--gray-500);
+  overflow-x: hidden;
 }
 
 .intro {
@@ -98,8 +108,8 @@ body {
 }
 
 .profile-image {
-  width: 5.45rem;
-  height: 5.45rem;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
   border: 2px solid var(--gray-500);
   outline: 2px solid var(--red);
@@ -107,9 +117,11 @@ body {
 }
 
 .code {
+  width: 2rem;
+  height: 2rem;
   position: absolute;
   bottom: 50px;
-  right: -5px;
+  right: -3px;
 }
 
 .intro .container .texts {
@@ -152,13 +164,8 @@ body {
   border-radius: 9999px;
 }
 
-.intro .container .tags .tag img {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.intro .container .tags .tag img {
-  fill: var(--red);
+.intro .container .tags .tag i {
+  font-size: 1.5rem;
 }
 
 .intro .container .scroll-down {
@@ -178,9 +185,9 @@ body {
   background-color: rgba(255, 255, 255, 0.08);
 }
 
-.intro .container .scroll-down img {
-  width: 2rem;
-  height: 2rem;
+.intro .container .scroll-down i {
+  font-size: 2rem;
+  color: var(--gray-200);
 }
 
 .projects .container .texts {
@@ -203,11 +210,15 @@ body {
 }
 
 .projects .container .projects-grid .project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: var(--gray-400);
   padding: 0.75rem;
   border-radius: 12px;
   opacity: 1;
   transition: transform 0.3s, opacity 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .projects .container .projects-grid:hover .project:not(:hover) {
@@ -247,9 +258,8 @@ body {
   color: var(--blue);
 }
 
-.projects .container .projects-grid .project .project-links img {
-  width: 1rem;
-  height: 1rem;
+.projects .container .projects-grid .project .project-links i {
+  font-size: 1rem;
 }
 
 .contact {
@@ -288,16 +298,17 @@ body {
   border-radius: 8px;
   width: 100%;
   border: 2px solid var(--gray-400);
-  transition: border 0.3s;
+  transition: color .3s, border 0.3s;
+  color: var(--gray-300);
 }
 
 .contact .container ul a:hover {
   border: 2px solid var(--blue);
+  color: var(--blue);
 }
 
-.contact .container ul li img {
-  width: 1.25rem;
-  height: 1.25rem;
+.contact .container ul li i {
+  font-size: 1.5rem;
 }
 
 .contact .container ul li div {
@@ -307,23 +318,21 @@ body {
   width: 100%;
 }
 
-.contact .container ul li div img {
-  width: 1.75rem;
-  height: 1.75rem;
+.contact .container ul li i {
+  font-size: 1.2rem;
 }
 
 footer {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 footer a {
   text-decoration: none;
 }
 
-footer a img {
-  width: 1rem;
-  height: 1rem;
+footer a i {
+  font-size: .8rem;
 }
 
 footer a,
