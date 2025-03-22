@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.ico" />
+    <title>Theyvison Santos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="intro">
+        <div class="container">
+          <div class="image-wrapper">
+            <img
+              src="https://github.com/theyvison.png"
+              alt="Foto de perfil de Theyvison Santos"
+              class="profile-image"
+            />
+            <img src="./assets/code.svg" class="code" />
+          </div>
+          <div class="texts">
+            <h2 class="subtitle">
+              Hello World! Meu nome é <span>Theyvison Santos</span> e sou
+            </h2>
+            <h1 class="title-lg">Desenvolvedor Web</h1>
+            <p class="text-md">
+              Atualmente bacharelando em Sistemas de Informação, tenho
+              conhecimento em desenvolvimento web. Iniciei minha jornada na
+              programação estudando Python e, pouco tempo depois, conheci o
+              mundo do front-end. Desde então, venho aprimorando minhas
+              habilidades, explorando HTML, CSS, JavaScript, React.js, entre
+              outras tecnologias.<br /><br />
+              Também possuo alguma experiência em back-end, com Node.js, Express
+              e Fastify, além de bancos de dados como MySQL e PostgreSQL.<br /><br />
+              Estou sempre em busca de aprender novas ferramentas e aprimorar
+              minhas habilidades.
+            </p>
+            <div class="tags">
+              <div class="tag">
+                <img src="./assets/html.svg" alt="html" />
+                <span class="text-md" style="text-transform: uppercase"
+                  >html</span
+                >
+              </div>
+
+              <div class="tag">
+                <img
+                  src="./assets/css.svg"
+                  alt="css"
+                  style="text-transform: uppercase"
+                />
+                <span class="text-md">css</span>
+              </div>
+
+              <div class="tag">
+                <img src="./assets/js.svg" alt="javascript" />
+                <span class="text-md">Javascript</span>
+              </div>
+
+              <div class="tag">
+                <img src="./assets/react.svg" alt="react" />
+                <span class="text-md">React</span>
+              </div>
+
+              <div class="tag">
+                <img src="./assets/node.svg" alt="node" />
+                <span class="text-md">Node.js</span>
+              </div>
+
+              <div class="tag">
+                <img src="./assets/github.svg" alt="github" />
+                <span class="text-md">Github</span>
+              </div>
+            </div>
+            <button class="scroll-down" onclick="handleScrollDown()">
+              <img src="./assets/carretDoubleDown.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects">
+        <div class="container">
+          <div class="texts">
+            <span class="subtitle">Projetos</span>
+            <h2 class="title-md">Veja meus projetos em destaque</h2>
+          </div>
+          <div class="projects-grid">
+            <div class="project">
+              <img src="./assets/images/beautysalon.png" alt="" />
+              <h3 class="title-sm">beautisalon</h3>
+              <p class="text-sm">
+                Uma landing page de um salão de beleza, desenvolvida com HTML,
+                CSS e Javascript durante a NLW 6 da rocketseat.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Theyvison/NLW-6-Origin"
+                  class="text-sm"
+                  target="_blank"
+                >
+                  <img src="./assets/github.svg" />
+                  Repositório
+                </a>
+                <a
+                  href="theyvison.github.io/NLW-6-Origin/"
+                  class="text-sm"
+                  target="_blank"
+                >
+                  <img src="./assets/link.svg" />
+                  Site
+                </a>
+              </div>
+            </div>
+
+            <div class="project">
+              <img src="./assets/images/portfolio.png" alt="" />
+              <h3 class="title-sm">Meu portfolio</h3>
+              <p class="text-sm">
+                Esse site que está vendo é o meu portfolio, desenvolvido com
+                HTML, CSS e Javascript, feito para mostrar um pouco do meu
+                trabalho e conhecimento.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Theyvison/ignite-timer"
+                  class="text-sm"
+                  target="_blank"
+                >
+                  <img src="./assets/github.svg" />
+                  Repositório
+                </a>
+                <a
+                  href="https://ignite-timer-ten-omega.vercel.app/"
+                  class="text-sm"
+                  target="_blank"
+                >
+                  <img src="./assets/link.svg" />
+                  Site
+                </a>
+              </div>
+            </div>
+
+            <div class="project">
+              <img src="./assets/images/ignite-timer.png" alt="" />
+              <h3 class="title-sm">Ignite Timer</h3>
+              <p class="text-sm">
+                Um timer criado em React com o intuito de ajudar a manter o foco
+                nas suas atividades
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Theyvison/ignite-timer"
+                  class="text-sm"
+                  target="_blank"
+                >
+                  <img src="./assets/github.svg" />
+                  Repositório
+                </a>
+                <a
+                  href="https://ignite-timer-ten-omega.vercel.app/"
+                  class="text-sm"
+                  target="_blank"
+                >
+                  <img src="./assets/link.svg" />
+                  Site
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <div class="texts">
+            <span class="subtitle">Contato</span>
+            <h2 class="title-md">Gostou do meu trabalho?</h2>
+            <p class="text-md">
+              Entre em contato ou acompanhe as minhas redes sociais!
+            </p>
+          </div>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/theyvison/" target="_blank">
+                <div>
+                  <img src="./assets/linkedinLogo.svg" />
+                  <span class="text-md">LinkedIn</span>
+                </div>
+                <img src="./assets/link.svg" alt=""
+              /></a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/th3yvison" target="_blank">
+                <div>
+                  <img src="./assets/instagramLogo.svg" alt="" />
+                  <span class="text-md">Instagram</span>
+                </div>
+                <img src="./assets/link.svg" alt=""
+              /></a>
+            </li>
+
+            <li>
+              <a href="https://www.github.com/theyvison" target="_blank">
+                <div>
+                  <img src="./assets/githubLogo.svg" alt="" />
+                  <span class="text-md">Github</span>
+                </div>
+                <img src="./assets/link.svg" alt=""
+              /></a>
+            </li>
+
+            <li>
+              <a
+                href="https://mailto:theyvisonsantos@hotmail.com"
+                target="_blank"
+              >
+                <div>
+                  <img src="./assets/envelopeSimple.svg" alt="" />
+                  <span class="text-md">Email</span>
+                </div>
+                <img src="./assets/link.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="text-md">
+        <a
+          href="https://www.figma.com/community/file/1387080701963671866/portfolio-dev"
+          target="_blank"
+          >Design original <img src="/assets/link.svg"
+        /></a>
+        | Site desenvolvido por <span>Theyvison Santos</span>
+      </p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
