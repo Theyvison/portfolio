@@ -14,4 +14,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Meu portfolio feito para mostrar um pouco do meu trabalho e conhecimento.
+Meu portfólio feito para mostrar um pouco do meu trabalho e conhecimento.
