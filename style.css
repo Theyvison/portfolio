@@ -132,15 +132,15 @@ body {
   text-align: center;
 }
 
-.intro .container .texts h2 {
+.intro .container .texts h1 {
   margin-bottom: 0.5rem;
 }
 
-.intro .container .texts h2 span {
+.intro .container .texts h1 span {
   color: var(--red);
 }
 
-.intro .container .texts h1 {
+.intro .container .texts h2 {
   margin-bottom: 1.25rem;
 }
 
