@@ -209,7 +209,12 @@ body {
   gap: 1.5rem;
 }
 
-.projects .container .projects-grid .project {
+.projects .container .projects-grid .project-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.projects .container .projects-grid .project-wrapper .project {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
