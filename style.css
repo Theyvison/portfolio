@@ -229,6 +229,10 @@ body {
   transform: scale(1.05);
 }
 
+.tag:hover {
+  background-color: var(--gray-300);
+}
+
 .projects .container .projects-grid .project > img {
   border-radius: 8px;
   margin-bottom: 1.25rem;
