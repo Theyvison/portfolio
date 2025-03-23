@@ -12,6 +12,5 @@ const scrollReveal = ScrollReveal({
 })
 
 scrollReveal.reveal(`
-  #profile, #intro-subtitle, #intro-title, #intro-text, .tags, .scroll-down, #projects-title, #projects-subtitle, .projects-grid .project-wrapper, .contact span, .contact h2, .contact p, .contact ul a, footer
-  `, { interval: 100 })
-
+  #profile, #intro-subtitle, #intro-title, #intro-text, .tags .tag, .scroll-down, #projects-title, #projects-subtitle, .projects-grid .project-wrapper, .contact span, .contact h2, .contact p, .contact ul a, footer
+  `, { interval: 150 })
